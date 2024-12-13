@@ -1,0 +1,31 @@
+<!-- Consigna del Ejercicio 1
+Objetivo:
+Crear un proyecto simple que consuma la API de Rick and Morty y muestre en el navegador el nombre, estado y una imagen de un personaje aleatorio.
+Estructura del proyecto:
+Crear un archivo index.html con un contenedor para mostrar los datos.
+Crear un archivo assets/css/style.css para estilizar la página.
+Crear un archivo assets/js/scripts.js para realizar la solicitud a la API y manipular el DOM.
+
+Requisitos:
+Usar fetch para obtener datos de la API.
+Mostrar el nombre, estado y la imagen de un personaje en el navegador. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Rick and Morty Character</h1>
+        <div id="character-container">
+            <img id="character-image" src="" alt="Character Image">
+            <h2 id="character-name"></h2>
+            <p id="character-status"></p>
+        </div>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

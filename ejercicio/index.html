@@ -1,9 +1,30 @@
-Consigna del Ejercicio 
+<!-- Consigna del Ejercicio 
 
 Objetivo:
 Crear un botón en el frontend que, al presionarlo, genere un personaje aleatorio de Rick and Morty en pantalla.
 Estructura del proyecto:
 Reutilizar el proyecto del ejercicio anterior.
 Agregar un botón en el index.html.
-Modificar el scripts.js para generar un número aleatorio de personaje y cargarlo dinámicamente en el DOM.
+Modificar el scripts.js para generar un número aleatorio de personaje y cargarlo dinámicamente en el DOM. -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Rick and Morty Character</h1>
+        <div id="character-container">
+            <img id="character-image" src="" alt="Character Image">
+            <h2 id="character-name"></h2>
+            <p id="character-status"></p>
+            <button id="load-character">Cambiar personaje</button>
+        </div>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@ var estado = document.getElementById('character-status')
 
 async function fetchCaracter() {
     try {
-        const response = await fetch(`${baseURL}`)
+        const response = await fetch(`${baseURL}1`)
         const character = await response.json();
         nombre.textContent = character.name
         imagen.src = character.image
